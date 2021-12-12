@@ -1,0 +1,57 @@
+TAGS
+<p>  </p> - paragraph
+<head> </head> - head element (to store all technical information)
+<body> </body> - body element (to store information what needs to be seen in browser)
+<div> </div> - block element 
+<h1 h2 h3 h4 h5 h6> - headers
+<span> </span> - to change style for specified data in lines
+<em> </em> - emphasized text (same as italic)
+<i> </i> - italic text
+<b> </b> - bold text
+<strong> </strong> - important text (same as bold)
+<small> </small> - defines smaller text
+<mark> </mark> - defines element that should be marked
+<del> </del> - defined as strikethrough text
+<ins> </ins> - shows underlined text
+<sub> </sub> - defines subscript text
+<sup> </sup> - defines superscript text
+<br> - spacing
+<ul> </ul> - unordered list (needs li) shows dots
+<li> </li> - Individual list
+<ol> </ol> - ordered list (needs li) shows numbers of every element
+<img> - to add imeges
+<video> </video> - to add video
+<html> </html> - for correct code style
+<title> </title> - title of the document (written in head)
+<a> </a> - needed for links
+<table> </table> - container for tabular data
+<tr> </tr> - container to create a row of a table
+<td> </td> - table data element (to add date in table)
+<th> </th> - to add title heading in table
+<tbody> </tbody> - to store one or more rows of a table
+<form> </form> - to add information and send it to server
+<input> - form element which creates a text field , buttons, switches and flags
+<label> </label> - displays test that is written between the opening and closing tags
+<section> </section> - creates a section of a document (often used for news blocks, contact info, tabs)
+<hr> - draw horizontal line
+<option> </option> -  defines individual list items (in select)
+<datalist> </datalist> - Creates a list of options that can be selected as you type in a text box
+<textarea> </textarea> - form where you can enter text
+<pre> </pre> - defines preformatted text (used to display poems for example)
+
+
+ATTRIBUTES
+id – unique name of element, to change style
+src – source attribute
+alt – to display text if image is not available
+href – link the path or address of a file or link
+target – shows how the link should open
+colspan – span columns (in td)
+rowspan - to span multiple rows (in td)
+class – style class
+required – required form field
+lang – declares the language of the web page (used in html tag)
+width and height – provide size (for images for example)
+style – used to add styles to element
+title – defines some extra information about the element if you point on it in browser
+

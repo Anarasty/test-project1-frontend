@@ -1,0 +1,5 @@
+background-color – colors the background of the element
+color – colors the text
+font-family – selects the font type
+font-size – defines the font’s size
+text-align – used to align text
