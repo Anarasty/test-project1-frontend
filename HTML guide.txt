@@ -38,6 +38,13 @@ TAGS
 <datalist> </datalist> - Creates a list of options that can be selected as you type in a text box
 <textarea> </textarea> - form where you can enter text
 <pre> </pre> - defines preformatted text (used to display poems for example)
+<blockquote> </blockquote> - defines a section that is quoted
+<q> </q> - defines a quote that is marked with “ ”
+<abbr> </abbr> - defines an abbreviation (HTML, CSS)
+<address> </address> - defines contact information like email, url, phone number, social media etc
+<cite> </cite> - defines a title of some work (book, picture, poem)
+<bdo> </bdo> - bi-directional override (override text direction ex:“right to left”) (needs dir)
+
 
 
 ATTRIBUTES
@@ -54,4 +61,4 @@ lang – declares the language of the web page (used in html tag)
 width and height – provide size (for images for example)
 style – used to add styles to element
 title – defines some extra information about the element if you point on it in browser
-
+cite – address that indicates the source of the quote
