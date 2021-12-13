@@ -3,3 +3,6 @@ color – colors the text
 font-family – selects the font type
 font-size – defines the font’s size
 text-align – used to align text
+padding – defines space between text and border
+margin – defines space outside the border
+
