@@ -12,7 +12,7 @@
  
 <body style="background-color: rgb(207, 255, 185);">
     <!-- information that displayed in browser -->
-    <h1 style="background-color: crimson;">H1 element</h1>
+    <h1 id="h1" style="background-color: crimson;">H1 element</h1>
     <h2 style="background-color: cyan;">H2 element</h2>
     <h3 style="color: darkmagenta;">H3 element</h3>
     <h4 style="color: rgb(255, 255, 255); background-color: deeppink;">H4 element</h4>
@@ -100,6 +100,31 @@
     <br>
     <p style="background-color: rgba(255, 61, 61, 0.438);">ssssss</p>
     
+    <hr>
+    <h2>Testing links</h2>
+    <br>
+    <a href="https://www.youtube.com" target="_blank">visit youtube (target _blank)</a>
+    <a href="https://www.youtube.com" target="_self">visit youtube (target _self)</a>
+    <a href="https://www.youtube.com" target="_parent">visit youtube (target _parent)</a>
+    <a href="https://www.youtube.com" target="_top">visit youtube (target _top)</a>
 
+    <!-- _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window -->
+    <br>
+    <h2>Using image as a link</h2>
+    <a href="https://www.youtube.com" target="_blank">
+        <img src="parrot1.jpg" alt="my parrot" width="200px" height="200px" >
+    </a>
+
+    <br>
+    <h2>Link to an email</h2>
+    <a href="mailto:murloc.ninja16@gmail.com" title="THIS IS MY EMAIL">my email</a>
+
+    <br>
+    <h2>CREATING BOOKMARKS</h2>
+    <!-- <p id="paragrapBookmark">This paragraph is created to test bookmarks</p> -->
+    <a href="#h1">check H1 element</a>
 </body>
 </html>

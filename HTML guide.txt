@@ -52,7 +52,7 @@ id – unique name of element, to change style
 src – source attribute
 alt – to display text if image is not available
 href – link the path or address of a file or link
-target – shows how the link should open
+target – shows how the link should open(_self, _blank,_parent,_top)
 colspan – span columns (in td)
 rowspan - to span multiple rows (in td)
 class – style class
