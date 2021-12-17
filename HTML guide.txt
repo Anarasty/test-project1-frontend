@@ -44,7 +44,9 @@ TAGS
 <address> </address> - defines contact information like email, url, phone number, social media etc
 <cite> </cite> - defines a title of some work (book, picture, poem)
 <bdo> </bdo> - bi-directional override (override text direction ex:“right to left”) (needs dir)
-
+<map> </map> - container for <area>. Used to create image map
+<area> -  defines clickable area of the image map
+<picture> </picture> - allows to display different pictures for different devices (more flexible)
 
 
 ATTRIBUTES
@@ -62,3 +64,4 @@ width and height – provide size (for images for example)
 style – used to add styles to element
 title – defines some extra information about the element if you point on it in browser
 cite – address that indicates the source of the quote
+usemap - connects the image and map of this image

@@ -1,7 +1,16 @@
+background-image:url() - add an image to your background
+background-repeat - to let background repeat it self or not
+background-size - set size of the background (cover - to cover entire element)
+background-attachment - to make sure the background always covers the entire element (fixed)
 background-color – colors the background of the element
+
+
 color – colors the text
+
+
 font-family – selects the font type
 font-size – defines the font’s size
+
 text-align – used to align text
 padding – defines space between text and border
 margin – defines space outside the border

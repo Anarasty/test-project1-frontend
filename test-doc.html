@@ -126,5 +126,30 @@
     <h2>CREATING BOOKMARKS</h2>
     <!-- <p id="paragrapBookmark">This paragraph is created to test bookmarks</p> -->
     <a href="#h1">check H1 element</a>
+
+    <hr>
+    <br>
+    <h2>Testing image maps</h2>
+    <img src="workspace.jpg" alt="image2" width="300" height="450" usemap="#testmap1">
+    <map name="testmap1">
+        <area title="coffee" shape="circle" coords="80, 80, 20" href="https://ru.wikipedia.org/wiki/Coffee" alt="Coffee" target="_blank" onclick="clickFunc()">
+        <area title="computer" shape="rect" coords="100, 200, 200, 300" href="https://en.wikipedia.org/wiki/Computer" alt="computer" target="_blank">
+    </map>
+
+    <script>
+        function clickFunc() {
+            alert("You clicked coffe");
+        }
+    </script>
+
+    <hr>
+    <br>
+    <!-- <h2>Testing pictures</h2>
+    <picture>
+        <source media="(min-width: 500px)" srcset="parrot1.jpg">
+        <source media="(min-width: 1000px)" srccet="workspace.jpg">
+        <img src="parrot1.jpg" alt="aaa">
+    </picture> -->
+
 </body>
 </html>
