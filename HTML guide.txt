@@ -28,7 +28,12 @@ TAGS
 <tr> </tr> - container to create a row of a table
 <td> </td> - table data element (to add date in table)
 <th> </th> - to add title heading in table
-<tbody> </tbody> - to store one or more rows of a table
+<thead> </thead> - groups the header content in a table
+<tbody> </tbody> - groups the body content in a table
+<tfoot> </tfoot> - groups the footer content in a table
+<caption> </caption> - defines caption of the table
+<colgroup> </colgroup> - specifies a group of one or more columns in a table for  better formatting
+<col> - specifies column properties for each column within a <colgroup> element
 <form> </form> - to add information and send it to server
 <input> - form element which creates a text field , buttons, switches and flags
 <label> </label> - displays test that is written between the opening and closing tags

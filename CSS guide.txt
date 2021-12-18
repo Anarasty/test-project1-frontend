@@ -4,6 +4,11 @@ background-size - set size of the background (cover - to cover entire element)
 background-attachment - to make sure the background always covers the entire element (fixed)
 background-color – colors the background of the element
 
+border - adds borders to table
+border-collapse - can make borders collapse into single border
+border-radius - makes corners of the border rounded
+border-style - set style of the border (dotted, dashed, solid, double, groove, ridge, inset, outset)
+border-color - set the color of a border
 
 color – colors the text
 
