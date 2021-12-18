@@ -19,6 +19,9 @@ TAGS
 <ul> </ul> - unordered list (needs li) shows dots
 <li> </li> - Individual list
 <ol> </ol> - ordered list (needs li) shows numbers of every element
+<dl> </dl> - description list (contains dt and dd)
+<dt> </dt> - defines a term in a description list
+<dd> </dd> - describes the term in a description list
 <img> - to add imeges
 <video> </video> - to add video
 <html> </html> - for correct code style
