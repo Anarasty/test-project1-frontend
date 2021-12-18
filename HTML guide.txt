@@ -47,7 +47,8 @@ TAGS
 <map> </map> - container for <area>. Used to create image map
 <area> -  defines clickable area of the image map
 <picture> </picture> - allows to display different pictures for different devices (more flexible)
-
+<link> - links to an external document such as a stylesheet or font
+ 
 
 ATTRIBUTES
 id – unique name of element, to change style
