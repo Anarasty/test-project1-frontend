@@ -54,3 +54,7 @@ td:hover{
 #testTest{
     font-size: 30px;
 }
+
+iframe{
+    border: none;
+}
