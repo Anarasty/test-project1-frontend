@@ -254,5 +254,39 @@
         <dt>item2</dt>
         <dd> - this is item2</dd>
     </dl>
+
+    <br>
+    <hr>
+    <h2>Testing class attribute</h2>
+    <p>this is my test of <span class="testclass1">class</span> attribute</p>
+    <p>this is the second test of <span  class="testclass2">class</span> attribute</p>
+    <!-- test function
+    <script>
+        function myFunction() {
+          var x = document.getElementsByClassName("city");
+          for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+        }
+        </script> -->
+
+    <br>
+    <hr>
+    <h2>Testing id attribute</h2>
+    <p>this is my <span id="idTest">id</span> attribute <span id="testTest">test</span> .</p>    
+    <br>
+    <h2 id="helloWorld"> Hello world!</h2>
+    <button onclick="changeText()">touch me!</button>
+    <script>
+        function changeText() {
+            document.getElementById("helloWorld").innerHTML = "Goodbye world!";
+        }
+    </script>
+
+    <br>
+    <hr>
+    <br>
+
+
 </body>
 </html>

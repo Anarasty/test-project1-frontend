@@ -35,3 +35,22 @@ th:hover{
 td:hover{
     background-color: dimgray;
 }
+
+.testclass1{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.testclass2{
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+#idTest{
+    color: burlywood;
+}
+
+#testTest{
+    font-size: 30px;
+}
