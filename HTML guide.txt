@@ -41,6 +41,14 @@ TAGS
 <input> - form element which creates a text field , buttons, switches and flags
 <label> </label> - displays test that is written between the opening and closing tags
 <section> </section> - creates a section of a document (often used for news blocks, contact info, tabs)
+<article> </article> - specifies the content of the site such as news, article, blog post, forum, etc.
+<header> </header> - specifies the "header" of the site or section, which usually contains the heading.
+<footer> </footer> - sets the "footer" of the site or section, it can contain the name of the author, date of the document.
+<figure> </figure> - specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<details> </details> - used to store information that can be hidden or shown at the request of the user
+<main> </main> - intended for the main content of the document
+<nav> </nav> - defines navigation links
+<summary> </summary> - Specifies a title for the <details> tag that can be clicked to expand information
 <hr> - draw horizontal line
 <option> </option> -  defines individual list items (in select)
 <datalist> </datalist> - Creates a list of options that can be selected as you type in a text box
