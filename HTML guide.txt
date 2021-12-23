@@ -50,6 +50,7 @@ TAGS
 <nav> </nav> - defines navigation links
 <summary> </summary> - Specifies a title for the <details> tag that can be clicked to expand information
 <hr> - draw horizontal line
+<select> </select> - allows to create an interface element in the form of a dropdown list
 <option> </option> -  defines individual list items (in select)
 <datalist> </datalist> - Creates a list of options that can be selected as you type in a text box
 <textarea> </textarea> - form where you can enter text
@@ -72,8 +73,11 @@ TAGS
 <kbd> </kbd> - used to indicate text that is typed on the keyboard or for the name of keys 
 <samp> </samp> - used to display text that is the result of the output of a computer program or script
 <var> </var> - used to highlight variables of computer programs or mathematical expression
-
-
+<fieldset> </fieldset> - used to group related data in a form
+<legend> </legend> - element defines a caption for the <fieldset> element
+<output> </output> - defines the area in which information is displayed, mainly with the help of scripts
+<button> </button> - defines a clickable button
+<optgroup> </optgroup> - defines a group of related options in a drop-down list
 
 ATTRIBUTES
 id – unique name of element, to change style
@@ -95,6 +99,15 @@ dir - specifies the direction and display of text - from left to right or from r
 type - defines the type of element (button, input, object etc)
 icon - specifies a picture that will represent the command
 action - defines the action to be performed when the form is submitted
+method - attribute specifies the HTTP method to be used when submitting the form data(get,post)
+autocomplete - specifies whether a form should have autocomplete on or off
+novalidate - cancels the built-in validation of the data entered by the user in the form for correctness
+accept-charset - specifies the character encodings used for form submission
+enctype - specifies how the form-data should be encoded when submitting it to the server (only for method="post")
+rel - specifies the relationship between a linked resource and the current document
+selected - defines a pre-selected option
+size - specify the number of visible values in select option
+multiple - allow the user to select more than one value
 
 HTML Entities
     non-breaking space	&nbsp;
