@@ -91,8 +91,10 @@ style – used to add styles to element
 title – defines some extra information about the element if you point on it in browser
 cite – address that indicates the source of the quote
 usemap - connects the image and map of this image
-
-
+dir - specifies the direction and display of text - from left to right or from right to left
+type - defines the type of element (button, input, object etc)
+icon - specifies a picture that will represent the command
+action - defines the action to be performed when the form is submitted
 
 HTML Entities
     non-breaking space	&nbsp;
