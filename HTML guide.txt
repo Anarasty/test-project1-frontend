@@ -108,6 +108,16 @@ rel - specifies the relationship between a linked resource and the current docum
 selected - defines a pre-selected option
 size - specify the number of visible values in select option
 multiple - allow the user to select more than one value
+checked - specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")
+disabled - specifies that an input field should be disabled
+max - specifies the maximum value for an input field
+min - specifies the minimum value for an input field
+maxlength - specifies the maximum number of character for an input field
+pattern - specifies a regular expression to check the input value against
+readonly - specifies that an input field is read only (cannot be changed)
+step - specifies the legal number intervals for an input field
+value - specifies the default value for an input field
+placeholder - outputs text inside a form field, which disappears when focus is received 
 
 HTML Entities
     non-breaking space	&nbsp;
