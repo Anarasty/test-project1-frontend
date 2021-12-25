@@ -78,6 +78,9 @@ TAGS
 <output> </output> - defines the area in which information is displayed, mainly with the help of scripts
 <button> </button> - defines a clickable button
 <optgroup> </optgroup> - defines a group of related options in a drop-down list
+<canvas> </canvas> - creates an area in which JavaScript can be used to draw different objects, display images, transform them, and change properties
+<svg> </svg> - container for SVG graphics. Defines vector-based graphics in XML format
+
 
 ATTRIBUTES
 id – unique name of element, to change style
@@ -119,7 +122,11 @@ step - specifies the legal number intervals for an input field
 value - specifies the default value for an input field
 placeholder - outputs text inside a form field, which disappears when focus is received 
 autofocus - specifies that an input field should automatically get focus when the page loads
-
+form - associates a button with a form by its identifier. Such a link is necessary when the button is not located inside the <form>
+formaction - determines the address of the form processor  
+formenctype - sets the way to encode form data when it is sent to the server 
+formmethod - the attribute tells the browser which method to use to submit form data to the server (post or get)
+formtarget - specifies the window or frame into which the result returned by the form processor will be loaded
 
 HTML Entities
     non-breaking space	&nbsp;
