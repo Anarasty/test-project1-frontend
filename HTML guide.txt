@@ -81,7 +81,8 @@ TAGS
 <canvas> </canvas> - creates an area in which JavaScript can be used to draw different objects, display images, transform them, and change properties
 <svg> </svg> - container for SVG graphics. Defines vector-based graphics in XML format
 <track> - allows authors to specify a text path for display elements
-
+<object> </object> - tells the browser how to load and display objects that the browser doesn't natively understand
+<embed> - tells the browser how to load and display objects that the browser doesn't natively understand
 
 ATTRIBUTES
 id – unique name of element, to change style
