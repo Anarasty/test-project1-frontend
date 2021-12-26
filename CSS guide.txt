@@ -13,11 +13,15 @@ border-spacing - th change space between table cells
 
 color – colors the text
 
+float - determines on which side the element will be aligned(left,right,none)
 
 font-family – selects the font type
 font-size – defines the font’s size
 
 text-align – used to align text
+text-decoration - adds text decoration above the text(line,tyle,color)
+
+
 padding – defines space between text and border
 margin – defines space outside the border
 
